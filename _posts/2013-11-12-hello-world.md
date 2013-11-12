@@ -12,4 +12,4 @@ comments: true
 share: true
 ---
 
-## Hello world
+The introductory post on the new blog. Nothing much to say really, maybe just mention that Jekyll is great and you can find the source code for the blog on Github at [morion4000/morion4000.github.io](https://github.com/morion4000/morion4000.github.io).
