@@ -1,8 +1,8 @@
 title:            Ionut Moraru
 description:      Personal Blog
-disqus_shortname: 
+disqus_shortname: morion4000 
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://localhost:4000
+url:              http://www.morion4000.com
 
 # Owner/author information
 owner:
