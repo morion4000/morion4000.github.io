@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello World
-description: "Hello World dummy post."
+description: "Hello World introductory post."
 modified: 2013-11-12
 tags: [hello world]
 image:
