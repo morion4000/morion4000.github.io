@@ -90,13 +90,14 @@ On production environments it's pretty much the same. The only thing that change
 heroku config:set DJANGO_SETTINGS_MODULE=projects.settings.heroku
 {% endhighlight %}
 
-### Remove the default assignment for DJANGO_SETTINGS_MODULE
+### Remove the default assignment for `DJANGO_SETTINGS_MODULE`
 
-The `DJANGO_SETTINGS_MODULE` setting is overwritten in `wsgi.py`. Open `project/project/wsgi.py` and remove the lines that assign a default value:
+The `DJANGO_SETTINGS_MODULE` setting is overwritten in `wsgi.py` and `manage.py`. Open `project/project/wsgi.py` and `project/manage.py` and remove the lines that assign the default value:
 
 {% highlight python %}
 ...
 import os
+...
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "project.settings")
 ...
 {% endhighlight %}
