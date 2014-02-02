@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Django settings for multiple environments
-description: "Create and configure multiple Django settings files for multiple environments."
+description: "Create and configure Django settings files for multiple environments."
 modified: 2014-02-02
 tags: [django, settings, local, heroku]
 image:
@@ -60,7 +60,7 @@ The new directory structure for the Django application looks like this:
 
 ### Move the settings across the newly created files
 
-Having the settings divided it's a matter of preference and necesity. I usually have the database credentials set for each environment.
+Having the settings divided it's a matter of preference and necessity. I usually have the database credentials set for each environment.
 
 Add the import for the base settings in each of the different env files:
 
@@ -78,7 +78,7 @@ Locally there are several ways of setting the path for the settings module. You 
 export DJANGO_SETTINGS_MODULE=project.settings.local
 {% endhighlight %}
 
-or assign the `--settings` flag when starting the development server:
+Or assign the `--settings` flag when starting the development server:
 
 {% highlight bash %}
 python manage.py runserver --settings=project.setttings.local
