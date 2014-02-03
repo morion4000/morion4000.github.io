@@ -33,7 +33,7 @@ The common Django 1.6 directory structure looks a lot like this:
    - app2/
 {% endhighlight %}
 
-You need to create a `settings` directory inside `project/project`. In the newly created directory, you need to create a `__init__.py` file so that the python module can be included.
+You need to create a `settings` directory inside `project/project`. In the newly created directory, you need to create a `__init__.py` file so that the python module can be imported.
 
 Creating `base.py` is desirable for declaring settings that are environment agnostic.
 
@@ -72,7 +72,7 @@ For detailed Heroku settings for Django check [https://devcenter.heroku.com/arti
 
 ### Set the settings path
 
-Locally there are several ways of setting the path for the settings module. You can either set the environment variable `DJANGO_SETTINGS_MODULE`:
+Locally there are several ways for setting the path for the settings module. You can either set the environment variable `DJANGO_SETTINGS_MODULE`:
 
 {% highlight bash %}
 export DJANGO_SETTINGS_MODULE=project.settings.local
