@@ -13,7 +13,7 @@ share: true
 ## Maintenance Services
 
 I offer infrastructure maintenance services using the following legal entity: *Moraru F Ionut Adrian II*.
-For any any enquiries, please use the following email address: morion4000@gmail.com.
+For any enquiries, please use the following email address: morion4000@gmail.com.
 
 You can choose between two plans:
 * Starter - $10/month
