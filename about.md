@@ -11,3 +11,5 @@ share: true
 ---
 
 ## Here be dragons
+
+{% include paypal_button.html %}
