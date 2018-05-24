@@ -10,6 +10,13 @@ image:
 share: true
 ---
 
-## Here be dragons
+## Maintenance Services
+
+I offer infrastructure maintenance services using the following legal entity: *Moraru F Ionut Adrian II*.
+For any any enquiries, please use the following email address: morion4000@gmail.com.
+
+You can choose between two plans:
+* Starter - $10/month
+* Premier - $100/month
 
 {% include paypal_button.html %}
