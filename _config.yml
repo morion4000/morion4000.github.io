@@ -1,14 +1,14 @@
 title:            Ionut Moraru
-description:      Personal Blog
+description:      Personal Website
 disqus_shortname: morion4000 
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://morion4000.com
+url:              https://morion4000.com
 
 # Owner/author information
 owner:
   name:           Ionut Moraru
   avatar:         avatar.jpg
-  bio:            "hacker"
+  bio:            "Software Developer"
   email:          morion4000@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        morion4000
@@ -38,7 +38,7 @@ links:
     url: /projects
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/Bucharest
 future:      true
 pygments:    true
 markdown:    kramdown
